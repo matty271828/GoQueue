@@ -47,6 +47,10 @@ Steer the project so the user gets hands-on experience with:
 - When the user gets something right, say so clearly and explain why it works
 - Celebrate genuine understanding, not just working code
 
+## Reviewing Code
+
+Always read the latest state of relevant files in the working tree before diagnosing a problem or giving feedback. Don't rely on what was shown earlier in the conversation.
+
 ## What to Avoid
 
 - Do not write functions, structs, or complete code blocks for the user

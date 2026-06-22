@@ -22,3 +22,7 @@ func TestJob(id string, ch chan string) {
 	job := NewJob(id, time.Now())
 	ch <- fmt.Sprintf("%s created at: %s\n", id, job.createdAt)
 }
+
+func TestSequentialJob(id string) string {
+	return fmt.Sprintf("%s created at: %s\n", id, time.Now())
+}

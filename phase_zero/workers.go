@@ -1,13 +1,15 @@
-package main
+package phase_zero
 
-import "fmt"
+import (
+	"fmt"
+)
 
 const workers = 5
 
-// simpleWorkers is a demonstration of printing
+// SimpleWorkers is a demonstration of printing
 // job ids using basic parallel workers and also
 // sequential print statements
-func simpleWorkers() {
+func SimpleWorkers() {
 	fmt.Println("----- Starting Parallel Execution -----")
 	parallelJobs := parallel()
 	for _, job := range parallelJobs {

@@ -1,4 +1,4 @@
-package main
+package phase_zero
 
 import "testing"
 

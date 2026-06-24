@@ -1,6 +1,10 @@
 # GoQueue
 Example Job Processing System Built Using Go
 
+## Phase 0
+
+Goroutines and channels fundamentals
+
 ## Phase 1
 
 Single-process queue with channels.

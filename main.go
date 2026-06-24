@@ -1,5 +1,7 @@
 package main
 
+import "github.com/matty271828/GoQueue/phase_zero"
+
 func main() {
-	simpleWorkers()
+	phase_zero.SimpleWorkers()
 }
